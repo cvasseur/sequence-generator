@@ -1,0 +1,22 @@
+{
+    "name": "cvasseur/sequence-generator",
+    "description": "Just an esay-to-install sequence generator",
+    "authors": [
+        {
+            "name": "Clément Vasseur",
+            "email": "cle.vasseur@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7",
+        "phpspec/prophecy": "~1.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "SequenceGenerator": "src"
+        }
+    }
+}
